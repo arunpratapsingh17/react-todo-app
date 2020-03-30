@@ -2,6 +2,7 @@ import ToDoInput from "./components/ToDoInput";
 import ToDoList from "./components/ToDoList";
 import React, { Component } from "react";
 import uuid from "uuid/v4";
+import "@fortawesome/fontawesome-free/css/all.min.cssrtr";
 
 export default class App extends Component {
   state = {
